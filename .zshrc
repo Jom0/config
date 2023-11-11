@@ -56,6 +56,7 @@ alias grep='grep --color'
 alias rgrep='rgrep -n --color' 
 alias diff='colordiff' 
 alias tail='colortail' 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
 
 # Catppuccin theme for fzf
 export FZF_DEFAULT_OPTS=" \
